@@ -1,0 +1,111 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #F3F4F6; /* Fondo gris claro */
+    color: #333333; /* Texto gris oscuro */
+}
+
+header {
+    background: #3B4C9B; /* Azul oscuro */
+    color: #fff;
+    padding: 10px 0; /* Reducir el padding vertical */
+    text-align: center;
+}
+
+.profile-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 5px; /* Espacio superior */
+}
+
+.profile-image {
+    width: 15vw; /* 15% del ancho de la ventana */
+    height: 15vw; /* 15% del ancho de la ventana */
+    max-width: 100px; /* Tamaño máximo para pantallas grandes */
+    max-height: 100px; /* Tamaño máximo para pantallas grandes */
+    border-radius: 50%; /* Hace la imagen circular */
+    object-fit: cover;
+    margin-bottom: 5px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 0.9em; /* Ajustar el tamaño del texto en los enlaces */
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #FF6B6B; /* Rojo coral */
+}
+
+section {
+    padding: 20px;
+    margin: 20px 0; /* Espacio entre secciones */
+    border-radius: 8px; /* Bordes redondeados */
+    background-color: #ffffff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #3B4C9B; /* Títulos en azul oscuro */
+}
+
+.project {
+    margin: 20px 0;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #333;
+    color: #fff;
+}
+
+/* Estilos para iconos e imágenes */
+.icon-education {
+    color: #3B5998; /* Color azul para educación */
+}
+
+.icon-experience {
+    color: #8B4513; /* Color marrón para experiencia */
+}
+
+.icon-award {
+    color: #FFD700; /* Color dorado para el trofeo */
+}
+
+.icon-flag {
+    color: #ff2626; /* Color rojo para banderas */
+}
+
+.icon-certificate {
+    color: #23a914; /* Color verde para el diploma */
+}
+
+.flag-icon {
+    width: 20px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+h3 i {
+    margin-right: 10px;
+    font-size: 1.2em;
+}

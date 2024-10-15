@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portfolio</title>
+    <link rel="stylesheet" href="styles/styles.css"> <!-- Enlace a tu archivo CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> <!-- CDN Font Awesome -->
+    <script src="scripts/script.js" defer></script> <!-- Enlace a tu archivo JavaScript -->
+</head>
+<body>
+    <header>
+        <div class="profile-container">
+            <img src="images/profile_picture.png" alt="Juan José Piñero Orellana" class="profile-image">
+        </div>
+        <h1>Juan José Piñero Orellana</h1>
+        <p>Desarrollador Aplicaciones Multiplataforma</p>
+        <nav>
+            <ul>
+                <li><a href="#about">Acerca de mí</a></li>
+                <li><a href="#projects">Proyectos</a></li>
+                <li><a href="#skills">Habilidades</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>Acerca de mí</h2>
+        <p>
+            Amante de las nuevas tecnologías, me considero una persona dedicada, con un enfoque constante en el aprendizaje y una fuerte habilidad para trabajar en equipo.
+        </p>
+        
+        <h3><i class="fas fa-graduation-cap icon-education"></i> Educación</h3>
+        <p>
+            Grado Superior en Desarrollo de Aplicaciones Multiplataforma.<br>
+            Colegio San Ignacio Salesianos Cádiz - Cádiz<br>
+            Curso 2022 - 2024.
+        </p>
+        
+        <h3><i class="fas fa-briefcase icon-experience"></i> Experiencia</h3>
+        <p>
+            Desarrollador de aplicaciones para móviles en ALTEN Spain (Contrato de prácticas).<br>
+            Lenguaje usado: Kotlin + Android Studio, Microsoft Teams y GitLab.<br>
+            Marzo 2024 - Junio 2024 · 4 meses · Cádiz, Andalucía, España · En remoto
+        </p>
+        
+        <h3><i class="fas fa-trophy icon-award"></i> Reconocimientos y Premios</h3>
+        <p>
+            3er Premio Área Innovación Tecnológica.<br>
+            Categoría: Tecnologías de la Información y la Comunicación.<br>
+            Proyecto: “Autocuidado Emocional: Tu bienestar está en tus manos”.<br>
+            Colegio Ntra. Sra. del Pilar - Salesianos Zaragoza. Marzo 2024
+        </p>
+    </section>
+
+    <section id="projects">
+        <h2>Proyectos</h2>
+        <div class="project">
+            <h3>Nombre del Proyecto 1</h3>
+            <p>Descripción breve del proyecto. Puedes incluir tecnologías utilizadas.</p>
+            <a href="https://link-al-proyecto1.com" target="_blank">Ver proyecto</a>
+        </div>
+        <div class="project">
+            <h3>Nombre del Proyecto 2</h3>
+            <p>Descripción breve del proyecto. Puedes incluir tecnologías utilizadas.</p>
+            <a href="https://link-al-proyecto2.com" target="_blank">Ver proyecto</a>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>Habilidades</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Python</li>
+            <li>Buena comunicación</li>
+            <li>Trabajo en equipo</li>
+            <li>Resolución de problemas</li>
+            <li>Buen compañero</li>
+            <li>Persona desenvuelta</li>
+        </ul>
+        
+        <h3><i class="fas fa-flag icon-flag"></i> Idiomas</h3>
+        <ul>
+            <li>
+                <img src="images/spain-flag.png" alt="Bandera de España" class="flag-icon"> 
+                Castellano: Nativo
+            </li>
+            <li>
+                <img src="images/uk-flag.png" alt="Bandera del Reino Unido" class="flag-icon"> 
+                Inglés: Nivel alto (Título B2 de Inglés Cambridge - Cambridge English Qualifications, Junio 2022)
+            </li>
+            <li>
+                <img src="images/germany-flag.png" alt="Bandera de Alemania" class="flag-icon"> 
+                Alemán: Nivel Básico
+            </li>
+        </ul>
+
+        <h3><i class="fas fa-certificate icon-certificate"></i> Licencias y certificaciones</h3>
+        <ul>
+            <li><i class="fas fa-id-card"></i> Carnet de conducir</li>
+            <li><i class="fas fa-car"></i> Vehículo propio</li>
+            <li><i class="fas fa-clock"></i> Disponibilidad total</li>
+        </ul>
+    </section>
+    
+    <section id="contact">
+        <h2>Contacto</h2>
+        <p>Juan José Piñero<br>
+        Teléfono: +34-633 86 22 41<br>
+        Correo: <a href="mailto:Juanjosepi.orellana19@gmail.com">Juanjosepi.orellana19@gmail.com</a><br>
+        Ubicación: 11600 - Ubrique, Cádiz</p>
+        <form action="contact/enviar-correo.php" method="post">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Mensaje:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Juan José Piñero Orellana. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
