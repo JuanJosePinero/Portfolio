@@ -164,19 +164,23 @@ h3 i {
     font-size: 1.2em;
 }
 
-/* Nueva estructura para Habilidades */
 .skills-container {
-    display: flex; /* Usar flexbox para alinear las listas */
-    justify-content: space-between; /* Espacio entre columnas */
-    margin-top: 20px; /* Espacio superior */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Dos columnas */
+    gap: 20px; /* Espacio entre columnas */
 }
 
-.skills-list {
-    list-style-type: none; /* Sin viñetas */
-    padding: 0; /* Sin padding */
-    margin: 0 15px; /* Espaciado horizontal entre columnas */
-    flex: 1; /* Ocupa igual espacio */
+.programming-languages {
+    display: grid; /* Estructura de cuadrícula para las habilidades */
+    grid-template-columns: repeat(2, 1fr); /* Dos columnas para los lenguajes de programación */
+    gap: 10px; /* Espacio entre los elementos de la lista */
 }
+
+/* Estilos adicionales si deseas personalizar la apariencia de los elementos de la lista */
+.programming-languages li {
+    margin: 5px 0; /* Espacio entre los elementos de la lista */
+}
+
 
 .skills-list ul {
     margin: 0; /* Elimina el margen superior */

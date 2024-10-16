@@ -1,183 +1,246 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Portfolio</title>
-    <link rel="stylesheet" href="styles/styles.css"> <!-- Enlace a tu archivo CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> <!-- CDN Font Awesome -->
-    <script src="scripts/script.js" defer></script> <!-- Enlace a tu archivo JavaScript -->
-</head>
-<body>
-    <header>
-        <div class="profile-container">
-            <img src="images/profile_picture.png" alt="Juan José Piñero Orellana" class="profile-image">
-        </div>
-        <h1>Juan José Piñero Orellana</h1>
-        <p>Desarrollador de Aplicaciones Multiplataforma</p>
-    
-        <!-- Menú desplegable con ícono de hamburguesa -->
-        <nav>
-            <div class="dropdown">
-                <button class="dropbtn">
-                    <i class="fas fa-bars"></i> <!-- Ícono de 3 líneas horizontales -->
-                </button>
-                <div class="dropdown-content">
-                    <a href="#about">Acerca de mí</a>
-                    <a href="#projects">Proyectos</a>
-                    <a href="#skills">Habilidades</a>
-                    <!-- <a href="#contact">Contacto</a> -->
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mi Portfolio</title>
+        <link rel="stylesheet" href="styles/styles.css">
+        <!-- Enlace a tu archivo CSS -->
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        <!-- CDN Font Awesome -->
+        <script src="scripts/script.js" defer></script>
+        <!-- Enlace a tu archivo JavaScript -->
+    </head>
+    <body>
+        <header>
+            <div class="profile-container">
+                <img src="images/profile_picture.png"
+                    alt="Juan José Piñero Orellana" class="profile-image">
+            </div>
+            <h1>Juan José Piñero Orellana</h1>
+            <p>Desarrollador de Aplicaciones Multiplataforma</p>
+
+            <!-- Menú desplegable con ícono de hamburguesa -->
+            <nav>
+                <div class="dropdown">
+                    <button class="dropbtn">
+                        <i class="fas fa-bars"></i>
+                        <!-- Ícono de 3 líneas horizontales -->
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="#about">Acerca de mí</a>
+                        <a href="#projects">Proyectos</a>
+                        <a href="#skills">Habilidades</a>
+                        <!-- <a href="#contact">Contacto</a> -->
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <section id="about">
+            <h2>Acerca de mí</h2>
+            <p>
+                Soy un desarrollador apasionado por la informática y las nuevas
+                tecnologías, con experiencia en la creación de aplicaciones
+                móviles, web y de escritorio. Me caracterizo por ser una persona
+                amable, colaborativa y siempre con ganas de aprender. Mi
+                objetivo es contribuir a proyectos que no solo cumplan con los
+                requisitos técnicos, sino que también ofrezcan una excelente
+                experiencia de usuario.
+            </p>
+
+            <div class="project">
+                <h3><i class="fas fa-graduation-cap icon-education"></i>
+                    Educación</h3>
+
+                <!-- Bloque Salesianos -->
+                <div class="education-item">
+                    <img src="images/salesianos_logo.png"
+                        alt="Logo Salesianos España" class="education-logo">
+                    <div class="education-text">
+                        <p><b>Grado Superior en Desarrollo de Aplicaciones
+                                Multiplataforma.</b><br>
+                            Salesianos España - Cádiz<br>
+                            Curso 2022 - 2024.<br>
+                            Aptitudes: GitHub · Android Development ·
+                            Desarrollador BackEnd y FrontEnd · Java · Flutter ·
+                            Kotlin · Python · HTML · SQL · Laravel · Desarrollo
+                            de aplicaciones móviles.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Bloque Campus Training -->
+                <div class="education-item">
+                    <img src="images/campustraining_logo.png"
+                        alt="Logo Campus Training" class="education-logo">
+                    <div class="education-text">
+                        <p><b>Curso de Ciberseguridad y Seguridad
+                                informática.</b><br>
+                            Campus Training - España<br>
+                            Curso 2022 - 2024.<br>
+                            Aptitudes: Seguridad informática · Ciberseguridad.
+                        </p>
+                    </div>
                 </div>
             </div>
-        </nav>
-    </header>
-    
 
-    <section id="about">
-        <h2>Acerca de mí</h2>
-    <p>
-        Soy un desarrollador apasionado por la informática y las nuevas tecnologías, con experiencia en la creación de aplicaciones móviles, web y de escritorio. Me caracterizo por ser una persona amable, colaborativa y siempre con ganas de aprender. Mi objetivo es contribuir a proyectos que no solo cumplan con los requisitos técnicos, sino que también ofrezcan una excelente experiencia de usuario.
-    </p>
+            <div class="project">
+                <h3><i class="fas fa-briefcase icon-experience"></i>
+                    Experiencia</h3>
+                <div class="experience-item">
+                    <img src="images/alten_logo.png" alt="ALTEN Spain"
+                        class="experience-logo">
+                    <div class="experience-text">
+                        <p>
+                            <b>Desarrollador de aplicaciones para móviles en
+                                ALTEN Spain (Contrato de prácticas).</b><br>
+                            Lenguaje usado: Kotlin + Android Studio, Microsoft
+                            Teams y GitLab.<br>
+                            Marzo 2024 - Junio 2024 · 4 meses · Cádiz,
+                            Andalucía, España · En remoto.<br>
+                            Aptitudes: GitLab · Desarrollador BackEnd y FrontEnd
+                            · Kotlin · Aplicaciones móviles · Android · Android
+                            Studio · Android Development.
+                        </p>
+                    </div>
+                </div>
+            </div>
 
-    <h3><i class="fas fa-graduation-cap icon-education"></i> Educación</h3>
-    
-    <!-- Bloque Salesianos -->
-    <div class="education-item">
-        <img src="images/salesianos_logo.png" alt="Logo Salesianos España" class="education-logo">
-        <div class="education-text">
-            <p><b>Grado Superior en Desarrollo de Aplicaciones Multiplataforma.</b><br>
-            Salesianos España - Cádiz<br>
-            Curso 2022 - 2024.<br>
-            Aptitudes: GitHub · Android Development · Desarrollador BackEnd y FrontEnd · Java · Flutter · Kotlin · Python · HTML · SQL · Laravel · Desarrollo de aplicaciones móviles.
-            </p>
-        </div>
-    </div>
-    
-    <!-- Bloque Campus Training -->
-    <div class="education-item">
-        <img src="images/campustraining_logo.png" alt="Logo Campus Training" class="education-logo">
-        <div class="education-text">
-            <p><b>Curso de Ciberseguridad y Seguridad informática.</b><br>
-            Campus Training - España<br>
-            Curso 2022 - 2024.<br>
-            Aptitudes: Seguridad informática · Ciberseguridad.
-            </p>
-        </div>
-    </div>
-    
-    <h3><i class="fas fa-briefcase icon-experience"></i> Experiencia</h3>
-    <div class="experience-item">
-        <img src="images/alten_logo.png" alt="ALTEN Spain" class="experience-logo">
-        <div class="experience-text">
-            <p>
-                <b>Desarrollador de aplicaciones para móviles en ALTEN Spain (Contrato de prácticas).</b><br>
-                Lenguaje usado: Kotlin + Android Studio, Microsoft Teams y GitLab.<br>
-                Marzo 2024 - Junio 2024 · 4 meses · Cádiz, Andalucía, España · En remoto.<br>
-                Aptitudes: GitLab · Desarrollador BackEnd y FrontEnd · Kotlin · Aplicaciones móviles · Android · Android Studio · Android Development.
-            </p>
-        </div>
-    </div>
-    
-    
-    <h3><i class="fas fa-trophy icon-award"></i> Licencias y Certificaciones</h3>
-    <div class="certificate-item">
-        <img src="images/cambridgeB2_logo.png" alt="Cambridge B2 First" class="certificate-logo">
-        <div class="certificate-text">
-            <p>
-                B2 First – Cambridge University Press & Assessment.<br>
-                Expedición: julio 2022.<br>
-            </p>
-        </div>
-    </div>
-    </section>
-    
+            <div class="project">
+            <h3><i class="fas fa-trophy icon-award"></i> Premios y
+                Certificaciones</h3>
+            <div class="certificate-item">
+                <img src="images/cambridgeB2_logo.png"
+                    alt="Cambridge B2 First" class="certificate-logo">
+                <div class="certificate-text">
+                    <p>
+                        B2 First – Cambridge University Press &
+                        Assessment.<br>
+                        Expedición: julio 2022.<br>
+                    </p>
+                </div>
+            </div>
 
-    <section id="projects">
-        <h2>Proyectos</h2>
-        <div class="project">
-            <h3>Nombre del Proyecto 1</h3>
-            <p>Descripción breve del proyecto. Puedes incluir tecnologías utilizadas.</p>
-            <a href="https://link-al-proyecto1.com" target="_blank">Ver proyecto</a>
-        </div>
-        <div class="project">
-            <h3>Nombre del Proyecto 2</h3>
-            <p>Descripción breve del proyecto. Puedes incluir tecnologías utilizadas.</p>
-            <a href="https://link-al-proyecto2.com" target="_blank">Ver proyecto</a>
-        </div>
-    </section>
+            <div class="certificate-item">
+                <img src="images/salesianos_logo.png" alt="Mindcare Logo"
+                    class="certificate-logo">
+                <div class="certificate-text">
+                    <p>
+                        <strong>3er Premio Área Innovación
+                            Tecnológica.</strong><br>
+                        Expedida por Salesianos Zaragoza · mar. 2024<br>
+                        Categoría: Tecnologías de la Información y la
+                        Comunicación.<br>
+                        Proyecto:
+                        "Autocuidado Emocional: Tu bienestar en tus manos."
+                        <br><br>
+                    </p>
+                </div>
+            </div>
+            </div>
 
-    <section id="skills">
-        <h2>Habilidades</h2>
-    <div class="skills-container">
-        <div class="skills-list">
-            <h3><i class="fas fa-laptop-code" style="color: gray;"></i> Lenguajes de Programación</h3>
-            <ul>
-                <li>Java</li>
-                <li>SpringBoot</li>
-                <li>Flutter</li>
-                <li>Dart</li>
-                <li>PHP</li>
-                <li>Laravel</li>
-                <li>Python</li>
-                <li>Kotlin</li>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-                <li>GitHub</li>
-                <li>GitLab</li>
-                <li>SQL</li>
-                <li>MongoDB</li>
-                <li>MySQL Server</li>
-            </ul>
-        </div>
-        <div class="skills-list">
-            <h3><i class="fas fa-users" style="color: #D19A8A;"></i> Habilidades Personales</h3>
-            <ul>
-                <li>Buena comunicación</li>
-                <li>Trabajo en equipo</li>
-                <li>Resolución de problemas</li>
-                <li>Buen compañero</li>
-                <li>Persona desenvuelta</li>
-                <li>Adaptabilidad</li>
-                <li>Creatividad</li>
-                <li>Pensamiento crítico</li>
-                <li>Gestión del tiempo</li>
-            </ul>
-        </div>
-    </div>
-    
-        <div class="languages-certifications-container">
+            <div class="project">
             <div class="languages-container">
                 <h3><i class="fas fa-flag icon-flag"></i> Idiomas</h3>
                 <ul>
                     <li>
-                        <img src="images/spain-flag.png" alt="Bandera de España" class="flag-icon">
+                        <img src="images/spain-flag.png"
+                            alt="Bandera de España" class="flag-icon">
                         Castellano: Nativo
                     </li>
                     <li>
-                        <img src="images/uk-flag.png" alt="Bandera del Reino Unido" class="flag-icon">
+                        <img src="images/uk-flag.png"
+                            alt="Bandera del Reino Unido" class="flag-icon">
                         Inglés: Nivel alto
                     </li>
                     <li>
-                        <img src="images/germany-flag.png" alt="Bandera de Alemania" class="flag-icon">
+                        <img src="images/germany-flag.png"
+                            alt="Bandera de Alemania" class="flag-icon">
                         Alemán: Nivel Básico
                     </li>
                 </ul>
             </div>
-    
+            </div>
+
+            <div class="project">
             <div class="certifications-container">
-                <h3><i class="fas fa-certificate icon-certificate"></i> Licencias y certificaciones</h3>
+                <h3><i class="fas fa-certificate icon-certificate"></i>
+                    Información Adicional</h3>
                 <ul>
-                    <li><i class="fas fa-id-card"></i> Carnet de conducir</li>
+                    <li><i class="fas fa-id-card"></i> Carnet de
+                        conducir</li>
                     <li><i class="fas fa-car"></i> Vehículo propio</li>
-                    <li><i class="fas fa-clock"></i> Disponibilidad total</li>
+                    <li><i class="fas fa-clock"></i> Disponibilidad
+                        total</li>
                 </ul>
             </div>
-        </div>
-    </section>
-    
-    
-    <!-- <section id="contact">
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2>Proyectos</h2>
+            <div class="project">
+                <h3>Nombre del Proyecto 1</h3>
+                <p>Descripción breve del proyecto. Puedes incluir
+                    tecnologías utilizadas.</p>
+                <a href="https://link-al-proyecto1.com" target="_blank">Ver
+                    proyecto</a>
+            </div>
+            <div class="project">
+                <h3>Nombre del Proyecto 2</h3>
+                <p>Descripción breve del proyecto. Puedes incluir
+                    tecnologías utilizadas.</p>
+                <a href="https://link-al-proyecto2.com" target="_blank">Ver
+                    proyecto</a>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2>Habilidades</h2>
+            <div class="project">
+                <h3 style="grid-column: span 2;"><i
+                        class="fas fa-laptop-code" style="color: gray;"></i>
+                    Lenguajes de Programación</h3> <!-- Ocupa 2 columnas -->
+                <ul class="programming-languages">
+                    <li>Java</li>
+                    <li>SpringBoot</li>
+                    <li>Flutter</li>
+                    <li>Dart</li>
+                    <li>PHP</li>
+                    <li>Laravel</li>
+                    <li>Python</li>
+                    <li>Kotlin</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>GitHub</li>
+                    <li>GitLab</li>
+                    <li>SQL</li>
+                    <li>MongoDB</li>
+                    <li>MySQL Server</li>
+                </ul>
+            </div>
+            <div class="project">
+                <h3><i class="fas fa-users" style="color: #D19A8A;"></i>
+                    Habilidades Personales</h3>
+                <ul>
+                    <li>Buena comunicación</li>
+                    <li>Trabajo en equipo</li>
+                    <li>Resolución de problemas</li>
+                    <li>Buen compañero</li>
+                    <li>Persona desenvuelta</li>
+                    <li>Adaptabilidad</li>
+                    <li>Creatividad</li>
+                    <li>Pensamiento crítico</li>
+                    <li>Gestión del tiempo</li>
+                </ul>
+            </div>
+
+        </section>
+
+        <!-- <section id="contact">
         <h2>Contacto</h2>
         <p>Juan José Piñero<br>
         Teléfono: +34-633 86 22 41<br>
@@ -197,8 +260,9 @@
         </form>
     </section> -->
 
-    <footer>
-        <p>&copy; 2024 Juan José Piñero Orellana. Todos los derechos reservados.</p>
-    </footer>
-</body>
+        <footer>
+            <p>&copy; 2024 Juan José Piñero Orellana. Todos los derechos
+                reservados.</p>
+        </footer>
+    </body>
 </html>
