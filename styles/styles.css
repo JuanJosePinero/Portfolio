@@ -15,6 +15,61 @@ header {
     text-align: center;
 }
 
+/* Estilos para el menú desplegable con ícono de hamburguesa */
+.dropdown {
+    position: absolute;
+    top: 10px; /* Posiciona en la parte superior */
+    right: 20px; /* Posiciona a la derecha */
+}
+
+.dropbtn {
+    background-color: transparent; /* Fondo transparente para el botón */
+    border: none; /* Sin bordes */
+    cursor: pointer;
+    font-size: 24px; /* Tamaño del ícono */
+    color: white; /* Color blanco del ícono */
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    right: 0; /* Alinea el menú a la derecha */
+    border-radius: 5px;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    color: #FF6B6B; /* Cambia el color del ícono al pasar el ratón */
+}
+
+/* Ajustes para reducir el espacio entre el nombre y la descripción */
+header h1 {
+    margin-bottom: 5px; /* Reduce el espacio debajo del nombre */
+}
+
+header p {
+    margin-top: 0; /* Elimina cualquier margen superior */
+}
+
+
 .profile-container {
     display: flex;
     justify-content: center;
