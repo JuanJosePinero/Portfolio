@@ -69,7 +69,6 @@ header p {
     margin-top: 0; /* Elimina cualquier margen superior */
 }
 
-
 .profile-container {
     display: flex;
     justify-content: center;
@@ -165,6 +164,56 @@ h3 i {
     font-size: 1.2em;
 }
 
+/* Nueva estructura para Habilidades */
+.skills-container {
+    display: flex; /* Usar flexbox para alinear las listas */
+    justify-content: space-between; /* Espacio entre columnas */
+    margin-top: 20px; /* Espacio superior */
+}
+
+.skills-list {
+    list-style-type: none; /* Sin viñetas */
+    padding: 0; /* Sin padding */
+    margin: 0 15px; /* Espaciado horizontal entre columnas */
+    flex: 1; /* Ocupa igual espacio */
+}
+
+.skills-list ul {
+    margin: 0; /* Elimina el margen superior */
+}
+
+.skills-list li {
+    margin-bottom: 10px; /* Aumenta el espacio entre ítems de la lista */
+}
+
+.languages-certifications-container {
+    display: flex; /* Usar flexbox para alinear */
+    justify-content: space-between; /* Espacio entre idiomas y certificaciones */
+    margin-top: 20px; /* Espacio superior */
+}
+
+.languages-container,
+.certifications-container {
+    width: 48%; /* Ancho para cada contenedor */
+}
+
+.languages-container h3,
+.certifications-container h3 {
+    margin-top: 0; /* Elimina margen superior */
+}
+
+.languages-container ul,
+.certifications-container ul {
+    list-style-type: none; /* Sin viñetas */
+    padding: 0; /* Sin padding */
+}
+
+.languages-container ul li,
+.certifications-container ul li {
+    margin-bottom: 5px; /* Espacio entre los ítems de la lista */
+}
+
+/* Estilos para el item de educación */
 .education-item {
     display: flex;
     align-items: center; /* Alinea el logo verticalmente con el texto */
@@ -182,6 +231,7 @@ h3 i {
     color: #333;
 }
 
+/* Estilos para la experiencia */
 .experience-item {
     display: block; /* Alineación en bloque para la estructura */
     margin-bottom: 15px; /* Espacio entre bloques de experiencia */
@@ -201,6 +251,7 @@ h3 i {
     vertical-align: middle; /* Alineación del texto con el logo */
 }
 
+/* Estilos para certificados */
 .certificate-item {
     display: block; /* Alineación en bloque para la estructura */
     margin-bottom: 15px; /* Espacio entre bloques de certificados */
