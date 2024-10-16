@@ -164,3 +164,59 @@ h3 i {
     margin-right: 10px;
     font-size: 1.2em;
 }
+
+.education-item {
+    display: flex;
+    align-items: center; /* Alinea el logo verticalmente con el texto */
+    margin-bottom: 15px; /* Espacio entre bloques */
+}
+
+.education-logo {
+    width: 50px; /* Ajusta el tamaño del logo */
+    height: auto;
+    margin-right: 15px; /* Espacio entre el logo y el texto */
+}
+
+.education-text {
+    flex-grow: 1; /* Permite que el texto ocupe el espacio restante */
+    color: #333;
+}
+
+.experience-item {
+    display: block; /* Alineación en bloque para la estructura */
+    margin-bottom: 15px; /* Espacio entre bloques de experiencia */
+}
+
+.experience-logo {
+    width: 50px; /* Tamaño del logo ALTEN */
+    height: auto;
+    margin-right: 15px; /* Espacio entre el logo y el texto */
+    display: inline-block; /* Para alinear en línea con el texto */
+    vertical-align: middle; /* Alineación a la altura del texto */
+}
+
+.experience-text {
+    display: inline-block; /* Texto en la misma línea que el logo */
+    color: #333;
+    vertical-align: middle; /* Alineación del texto con el logo */
+}
+
+.certificate-item {
+    display: block; /* Alineación en bloque para la estructura */
+    margin-bottom: 15px; /* Espacio entre bloques de certificados */
+}
+
+.certificate-logo {
+    width: 50px; /* Tamaño del logo de Cambridge B2 */
+    height: auto;
+    margin-right: 15px; /* Espacio entre el logo y el texto */
+    display: inline-block; /* Para alinear en línea con el texto */
+    vertical-align: middle; /* Alineación a la altura del texto */
+}
+
+.certificate-text {
+    display: inline-block; /* Texto en la misma línea que el logo */
+    color: #333;
+    vertical-align: middle; /* Alineación del texto con el logo */
+}
+
